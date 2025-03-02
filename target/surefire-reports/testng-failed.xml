@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GLAMS Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="GLAMS Address Page Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ninja.qa.AddressPageTest_TC_003">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="FillAllRegistrationDetails"/>
+        </methods>
+      </class> <!-- com.ninja.qa.AddressPageTest_TC_003 -->
+      <class name="com.ninja.qa.AddToCartPage_TC_002">
+        <methods>
+          <include name="TestAddToCartPage_TC_002"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ninja.qa.AddToCartPage_TC_002 -->
+    </classes>
+  </test> <!-- GLAMS Address Page Test(failed) -->
+</suite> <!-- Failed suite [GLAMS Test Suite] -->
