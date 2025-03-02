@@ -18,6 +18,8 @@ public class TestBase {
 	public static Properties prop;
 	public static WebDriver driver;
 	public static WebDriver wait;
+	
+
 
 	public TestBase() throws Exception {
 		try {
@@ -36,6 +38,7 @@ public class TestBase {
 	public static void initialization() {
 		ChromeOptions options = new ChromeOptions();
 		driver = new ChromeDriver(options);
+		
 		
 
 //		System.setProperty("webdriver.chrome.driver", "D:\\GLAMS\\chromedriver-win64\\chromedriver.exe");
