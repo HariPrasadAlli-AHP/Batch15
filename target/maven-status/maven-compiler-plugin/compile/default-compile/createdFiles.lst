@@ -1,5 +1,5 @@
-com\ninja\config\LoggerClass.class
 com\ninja\pages\AddToCartPage.class
+com\ninja\config\LoggerClass.class
 com\ninja\pages\SearchPage.class
 com\ninja\pages\AddressPage.class
 com\ninja\base\TestBase.class
