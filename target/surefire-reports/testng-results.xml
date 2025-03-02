@@ -5,30 +5,30 @@
       <![CDATA[Test Description: Filling Address Details for the logged-in User]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-03-02T14:13:26 IST" name="GLAMS Test Suite" finished-at="2025-03-02T14:14:07 IST" duration-ms="40646">
+  <suite started-at="2025-03-02T14:19:02 IST" name="GLAMS Test Suite" finished-at="2025-03-02T14:19:43 IST" duration-ms="40623">
     <groups>
     </groups>
-    <test started-at="2025-03-02T14:13:26 IST" name="GLAMS Address Page Test" finished-at="2025-03-02T14:14:07 IST" duration-ms="40646">
+    <test started-at="2025-03-02T14:19:02 IST" name="GLAMS Address Page Test" finished-at="2025-03-02T14:19:43 IST" duration-ms="40623">
       <class name="com.ninja.qa.SearchPage_TC_001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ninja.qa.SearchPage_TC_001@5876a9af]" started-at="2025-03-02T14:13:26 IST" name="setUp" finished-at="2025-03-02T14:13:31 IST" duration-ms="4758" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ninja.qa.SearchPage_TC_001@5876a9af]" started-at="2025-03-02T14:19:02 IST" name="setUp" finished-at="2025-03-02T14:19:07 IST" duration-ms="5193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestSearchPage_TC_001()[pri:0, instance:com.ninja.qa.SearchPage_TC_001@5876a9af]" started-at="2025-03-02T14:13:31 IST" name="TestSearchPage_TC_001" finished-at="2025-03-02T14:13:32 IST" duration-ms="1009" status="PASS">
+        <test-method signature="TestSearchPage_TC_001()[pri:0, instance:com.ninja.qa.SearchPage_TC_001@5876a9af]" started-at="2025-03-02T14:19:07 IST" name="TestSearchPage_TC_001" finished-at="2025-03-02T14:19:08 IST" duration-ms="1120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSearchPage_TC_001 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.SearchPage_TC_001@5876a9af]" started-at="2025-03-02T14:13:32 IST" name="tearDown" finished-at="2025-03-02T14:13:32 IST" duration-ms="313" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.SearchPage_TC_001@5876a9af]" started-at="2025-03-02T14:19:08 IST" name="tearDown" finished-at="2025-03-02T14:19:09 IST" duration-ms="329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ninja.qa.SearchPage_TC_001 -->
       <class name="com.ninja.qa.AddToCartPage_TC_002">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ninja.qa.AddToCartPage_TC_002@67c27493]" started-at="2025-03-02T14:13:32 IST" name="setUp" finished-at="2025-03-02T14:13:37 IST" duration-ms="4264" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ninja.qa.AddToCartPage_TC_002@67c27493]" started-at="2025-03-02T14:19:09 IST" name="setUp" finished-at="2025-03-02T14:19:13 IST" duration-ms="4134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TestAddToCartPage_TC_002()[pri:0, instance:com.ninja.qa.AddToCartPage_TC_002@67c27493]" started-at="2025-03-02T14:13:37 IST" name="TestAddToCartPage_TC_002" description="Verify that an iMac can be added to cart successfully and checkout is completed" finished-at="2025-03-02T14:13:38 IST" duration-ms="1082" status="FAIL">
+        <test-method signature="TestAddToCartPage_TC_002()[pri:0, instance:com.ninja.qa.AddToCartPage_TC_002@67c27493]" started-at="2025-03-02T14:19:13 IST" name="TestAddToCartPage_TC_002" description="Verify that an iMac can be added to cart successfully and checkout is completed" finished-at="2025-03-02T14:19:14 IST" duration-ms="980" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Text mismatch: Expected ' null ' but found 'iMac' expected [iMac] but found [null]]]>
@@ -79,17 +79,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestAddToCartPage_TC_002 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.AddToCartPage_TC_002@67c27493]" started-at="2025-03-02T14:13:38 IST" name="tearDown" finished-at="2025-03-02T14:13:38 IST" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.AddToCartPage_TC_002@67c27493]" started-at="2025-03-02T14:19:14 IST" name="tearDown" finished-at="2025-03-02T14:19:14 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ninja.qa.AddToCartPage_TC_002 -->
       <class name="com.ninja.qa.AddressPageTest_TC_003">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ninja.qa.AddressPageTest_TC_003@1a482e36]" started-at="2025-03-02T14:13:38 IST" name="setUp" finished-at="2025-03-02T14:13:42 IST" duration-ms="3854" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ninja.qa.AddressPageTest_TC_003@1a482e36]" started-at="2025-03-02T14:19:14 IST" name="setUp" finished-at="2025-03-02T14:19:18 IST" duration-ms="4346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="FillAllRegistrationDetails()[pri:0, instance:com.ninja.qa.AddressPageTest_TC_003@1a482e36]" started-at="2025-03-02T14:13:42 IST" name="FillAllRegistrationDetails" description="Filling Address Details for the logged in User" finished-at="2025-03-02T14:14:06 IST" duration-ms="24639" status="FAIL">
+        <test-method signature="FillAllRegistrationDetails()[pri:0, instance:com.ninja.qa.AddressPageTest_TC_003@1a482e36]" started-at="2025-03-02T14:19:18 IST" name="FillAllRegistrationDetails" description="Filling Address Details for the logged in User" finished-at="2025-03-02T14:19:42 IST" duration-ms="23776" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Text mismatch: Expected 'Your Account Has Been Created!  ' but found '' expected [] but found [Your Account Has Been Created!]]]>
@@ -143,7 +143,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </line>
           </reporter-output>
         </test-method> <!-- FillAllRegistrationDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.AddressPageTest_TC_003@1a482e36]" started-at="2025-03-02T14:14:06 IST" name="tearDown" finished-at="2025-03-02T14:14:07 IST" duration-ms="351" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ninja.qa.AddressPageTest_TC_003@1a482e36]" started-at="2025-03-02T14:19:42 IST" name="tearDown" finished-at="2025-03-02T14:19:43 IST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
