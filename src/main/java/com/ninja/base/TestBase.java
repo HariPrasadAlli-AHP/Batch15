@@ -34,11 +34,12 @@ public class TestBase {
 	}
 
 	public static void initialization() {
-//		ChromeOptions options = new ChromeOptions();
-//		driver = new ChromeDriver(options);
+		ChromeOptions options = new ChromeOptions();
+		driver = new ChromeDriver(options);
+		
 
-		System.setProperty("webdriver.chrome.driver", "D:\\GLAMS\\chromedriver-win64\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+//		System.setProperty("webdriver.chrome.driver", "D:\\GLAMS\\chromedriver-win64\\chromedriver.exe");
+//		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		driver.get(prop.getProperty("url"));
