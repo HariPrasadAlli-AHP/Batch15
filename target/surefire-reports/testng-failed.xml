@@ -4,13 +4,6 @@
   <test thread-count="5" name="GLAMS Address Page Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ninja.qa.AddToCartPage_TC_002">
-        <methods>
-          <include name="TestAddToCartPage_TC_002"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.ninja.qa.AddToCartPage_TC_002 -->
       <class name="com.ninja.qa.AddressPageTest_TC_003">
         <methods>
           <include name="tearDown"/>
@@ -18,6 +11,13 @@
           <include name="FillAllRegistrationDetails"/>
         </methods>
       </class> <!-- com.ninja.qa.AddressPageTest_TC_003 -->
+      <class name="com.ninja.qa.AddToCartPage_TC_002">
+        <methods>
+          <include name="TestAddToCartPage_TC_002"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ninja.qa.AddToCartPage_TC_002 -->
     </classes>
   </test> <!-- GLAMS Address Page Test(failed) -->
 </suite> <!-- Failed suite [GLAMS Test Suite] -->
