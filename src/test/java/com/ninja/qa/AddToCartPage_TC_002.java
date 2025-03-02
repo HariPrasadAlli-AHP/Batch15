@@ -13,7 +13,7 @@ public class AddToCartPage_TC_002 extends TestBase {
 
 	AddToCartPage addToCartPage;
 	String expectedProduct;
-	String expectedSuccessMessage;x
+	String expectedSuccessMessage;
 
 	public AddToCartPage_TC_002() throws Exception {
 		super();
