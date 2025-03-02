@@ -45,6 +45,8 @@ public class AddToCartPage_TC_002 extends TestBase {
 
 		addToCartPage.checkOutwithOneProduct();
 		System.out.println("Checkout Done");
+		System.out.println("Checkout Done_01");
+		
 
 	}
 
