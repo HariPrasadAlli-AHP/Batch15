@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 45.98 s <<< FAILURE! -- in TestSuite
-com.ninja.qa.AddToCartPage_TC_002.TestAddToCartPage_TC_002 -- Time elapsed: 0.964 s <<< FAILURE!
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 45.56 s <<< FAILURE! -- in TestSuite
+com.ninja.qa.AddToCartPage_TC_002.TestAddToCartPage_TC_002 -- Time elapsed: 1.023 s <<< FAILURE!
 java.lang.AssertionError: Text mismatch: Expected ' null ' but found 'iMac' expected [iMac] but found [null]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -43,7 +43,7 @@ java.lang.AssertionError: Text mismatch: Expected ' null ' but found 'iMac' expe
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.ninja.qa.AddressPageTest_TC_003.FillAllRegistrationDetails -- Time elapsed: 24.66 s <<< FAILURE!
+com.ninja.qa.AddressPageTest_TC_003.FillAllRegistrationDetails -- Time elapsed: 23.77 s <<< FAILURE!
 java.lang.AssertionError: Text mismatch: Expected 'Your Account Has Been Created!  ' but found '' expected [] but found [Your Account Has Been Created!]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
