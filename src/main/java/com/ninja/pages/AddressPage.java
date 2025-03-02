@@ -67,7 +67,7 @@ public class AddressPage {
 		wait.until(ExpectedConditions.visibilityOf(LastNameTextField));
 		wait.until(ExpectedConditions.elementToBeClickable(LastNameTextField)).sendKeys("a");
 		wait.until(ExpectedConditions.visibilityOf(EmailTextField));
-		wait.until(ExpectedConditions.elementToBeClickable(EmailTextField)).sendKeys("abc123lkjsssansddkfn@gmail.com");
+		wait.until(ExpectedConditions.elementToBeClickable(EmailTextField)).sendKeys("abc123lkjsssanssddkfn@gmail.com");
 		wait.until(ExpectedConditions.visibilityOf(TelephoneTextField));
 		wait.until(ExpectedConditions.elementToBeClickable(TelephoneTextField)).sendKeys("1234567890");
 		wait.until(ExpectedConditions.visibilityOf(PasswordTextField));

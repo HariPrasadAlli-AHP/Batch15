@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ninja.qa.AddressPageTest_TC_003">
+      <class name="com.ninja.qa.SearchPage_TC_001">
         <methods>
           <include name="tearDown"/>
+          <include name="TestSearchPage_TC_001"/>
           <include name="setUp"/>
-          <include name="FillAllRegistrationDetails"/>
         </methods>
-      </class> <!-- com.ninja.qa.AddressPageTest_TC_003 -->
+      </class> <!-- com.ninja.qa.SearchPage_TC_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
